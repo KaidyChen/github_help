@@ -1,0 +1,7 @@
+前提保证已安装git
+#1、进入到工程文件 （cd /path）
+#2、输入指令 git init
+#3、git add . （.代表当前目录下所有文件，如果要上传指定文件就换成指定文件名）
+#4、git commit -m "first commit"
+#5、git remote add origin https://自己的仓库url地址
+#6、git push -u origin master (如果此步报错就使用命令git push -u origin +master 强制上传更新)
